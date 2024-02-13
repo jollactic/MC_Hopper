@@ -46,4 +46,12 @@ jump_type site_A site_B init_spec_at_A init_spec_at_B final_spec_at_A final_spec
 The barrier for a general event involving two sites `site_A` and `site_B` connected with `jump_type`. The initial conditions to be fulfilled are specified by
 `init_spec_at_A` and `init_spec_at_B` and the effect of the event by `final_spec_at_A` and `final_spec_at_B`.
 
+## General output
+
+The accumulated time and the lifetime of the current frame. These are printed in the standard output from the code. 
+
+
+The evolution of the system is recorded in the file `KMC.xyz`. The first line of this file gives the the number of recorded frames after which blocks describing these frames follows. The blocks first give the number of lattice sites. Each lattice site, in each of the frames, are represented by an integer number specifying the species occupying the lattice site followed by the corresponding cartesian coordinate to that site.
+
+
 
