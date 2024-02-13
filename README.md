@@ -12,7 +12,7 @@ The first line specifies the number of points, and the following lines have the 
 ```
 x y z type_of_site type_of_species No_of_neigbors No_of_neigbors*id No_of_neigbors*jump_type
 ```
-`No_of_neigbors` gives the number of neigboring sites including the site itself (to allow for "selfevents" where the identiy of a species changes without mocing to a new position). `id` are the id number of the neigbor. Id numbers are defined from 1 to the number of sites as they are listed in the file. `jump_type` specifies the type of connection that the two sites has. This is useful for defining long and short migration steps etc.
+`No_of_neigbors` gives the number of neigboring sites including the site itself (to allow for "selfevents" where the identiy of a species changes without moving to a new position). `id` are the id number of the neigbor. Id numbers are defined from 1 to the number of sites as they are listed in the file. `jump_type` specifies the type of connection that the two sites has. This is useful for defining long and short migration steps etc.
 
 ## Barriers and general input
 The file `input.dat` has the following format:
