@@ -1,5 +1,5 @@
 # MC_Hopper
-*Written by Jolla Kullgren*
+*by Jolla Kullgren*
 
 A simple lattice kinetic Monte-Carlo program written in Fortran90. 
 
