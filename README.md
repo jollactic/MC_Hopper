@@ -5,7 +5,7 @@ Lattice Monte-Carlo and kinetic Monte-Carlo programs written in Fortran90.
 
 The main input files are `input.dat` and `geom.dat`.
 
-## Geometry input
+## Geometry - Lattice specification 
 The file `geom.dat` has the following format:
 
 The first line specifies the number of points, and the following lines have the format:
@@ -14,7 +14,7 @@ x y z type_of_site type_of_species No_of_neigbors No_of_neigbors*id No_of_neigbo
 ```
 `No_of_neigbors` gives the number of neigboring sites including the site it self (some events are "selfevents"). `id` are the id number of the neigbor. Id numbers are defined from 1 to the number of sites as they are listed in the file. `jump_type` specifies the type of connection that the two sites has. This is useful for defining long and short migration steps etc.
 
-\subsection{Barriers and general input}
+## Barriers and general input
 The file `input.dat` has the following format:
 
 First line:
