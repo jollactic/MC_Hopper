@@ -1,8 +1,7 @@
 # MC_Hopper
-Lattice Monte-Carlo and kinetic Monte-Carlo programs written in Fortran90.
+*Written by Jolla Kullgren*
 
-*Jolla Kullgren*
-
+Lattice Monte-Carlo and kinetic Monte-Carlo programs written in Fortran90. 
 The main input files are `input.dat` and `geom.dat`.
 
 ## Geometry - Lattice specification 
