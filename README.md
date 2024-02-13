@@ -34,7 +34,7 @@ jump_type site_A site_B  spec_at_A spec_at_B Energy
 
 the following `No_of_1body_interactions` lines:
 ```
-site  spec Energy
+site spec Energy
 ```
 
 the following `No_of_barriers` lines:
